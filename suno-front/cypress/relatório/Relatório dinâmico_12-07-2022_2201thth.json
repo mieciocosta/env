@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-07-13T01:01:25.459Z",
+    "end": "2022-07-13T01:01:42.023Z",
+    "duration": 16564,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e4eac43e-a2ed-4a11-aa05-ccaa3095c150",
+      "title": "",
+      "fullFile": "cypress/e2e/Features/login.feature",
+      "file": "cypress/e2e/Features/login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c68dc123-d738-4ae4-9135-2c9cf0d66515",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realizar login",
+              "fullTitle": "Login Realizar login",
+              "timedOut": null,
+              "duration": 9268,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "284c25b3-04a1-44aa-8327-9a54e4d6414b",
+              "parentUUID": "c68dc123-d738-4ae4-9135-2c9cf0d66515",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Event Id invalido",
+              "fullTitle": "Login Event Id invalido",
+              "timedOut": null,
+              "duration": 7258,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "07fd6f26-3340-4bc8-9709-72d4845907d0",
+              "parentUUID": "c68dc123-d738-4ae4-9135-2c9cf0d66515",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "284c25b3-04a1-44aa-8327-9a54e4d6414b",
+            "07fd6f26-3340-4bc8-9709-72d4845907d0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16526,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "Relatório dinâmico",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/relatório",
+        "overwrite": true,
+        "reportFilename": "Relatório dinâmico",
+        "timestamp": "dd/mm/yyyy_HHMMSS",
+        "charts": true,
+        "reportPageTitle": "custom-title"
+      },
+      "version": "6.0.1"
+    }
+  }
+}
